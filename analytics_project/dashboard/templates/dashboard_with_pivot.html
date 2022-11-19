@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HOME OF API</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'background.css' %}">
+    </head>
+    <body>
+        <script src="" async defer></script>
+        <h1>
+            <center style="background-image: linear-gradient(to right, #cc0099, #ff9933, #ff3399);">Home of APIS</center>
+        </h1>
+        <h2 style="color:rgb(80, 83, 255);margin-top: 5%; text-align: center;">
+        <label for="APIS">Select an API</label>
+        </h2>
+        <select name="API" id="api" style="width: 15%; text-align: center; margin-left: 42%;">
+        <option value="football">Football Score</option>
+        <option value="weather">Weather</option>
+        <option value="movies">Movies</option>
+        <option value="cocktail">Cocktail</option>
+        </select>
+        <br>
+        <div class="wrap">
+            <button class="button">Submit</button>
+        </div>
+        
+        
+    </body>
+</html>
